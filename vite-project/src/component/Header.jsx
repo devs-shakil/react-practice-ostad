@@ -1,10 +1,11 @@
 
 const Header = () => {
-    let marks = 75;
+    // let marks = 75;
+    const status = false;
     return (
         // immidietly invocked function
         <div>
-            {(()=>{ 
+            {/* {(()=>{ 
                 if(marks >= 80 && marks <= 100){
                     return "A+"
                 }else if(marks >= 70 && marks <80){
@@ -22,7 +23,17 @@ const Header = () => {
                 }
 
 
-            })()}            
+            })()}             */}
+
+            {/* ternary operator*/}
+            {/* {
+                status ?
+                <button>Log Out</button>
+                :
+                <button>Log In</button>
+            } */}
+
+            
         </div>
     );
 };
