@@ -8,6 +8,13 @@ import Props from "./component/Props";
 //   "Price":19.30,
 //   "Catagories": "Catagories 1"
 // }  
+
+const person = {
+  'id':1,
+  "name" : "Shakil",
+  "age":"24",
+  "phone":"01780783657"
+}
 const App = () => {
   return (
     <div>
