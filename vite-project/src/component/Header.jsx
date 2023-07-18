@@ -1,7 +1,12 @@
 
-const Header = () => {
+const Header = (props) => {
     // let marks = 75;
     const status = false;
+    const person = props.person;
+    const convertArray = Object.entries(person)    
+    const rendarList = convertArray.map((data, index) =>{
+        return <li key={index}>{data}</li>
+    })  
     return (
         // immidietly invocked function
         <div>
@@ -32,8 +37,10 @@ const Header = () => {
                 :
                 <button>Log In</button>
             } */}
-
-            
+            <h1>Person information</h1>
+            <ul>
+                {rendarList}   
+            </ul>
         </div>
     );
 };
