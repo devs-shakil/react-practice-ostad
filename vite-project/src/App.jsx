@@ -1,5 +1,6 @@
 // import Header from "./component/Header";
 // import Props from "./component/Props";
+import DarkLightMode from "./component/DarkLightMode";
 import UseRef from "./component/UseRef";
 
 //passing function
@@ -30,6 +31,7 @@ const App = () => {
         {/* <Header person={person}/> */}
         {/* <PassFunction helloFunction={helloFunction} /> */}
         <UseRef/>
+        <DarkLightMode/>
     </div>
   );
 };
