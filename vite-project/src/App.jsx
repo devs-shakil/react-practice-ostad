@@ -1,7 +1,15 @@
 // import Header from "./component/Header";
 // import Props from "./component/Props";
-import DarkLightMode from "./component/DarkLightMode";
-import UseRef from "./component/UseRef";
+// import DarkLightMode from "./component/DarkLightMode";
+// import FetchDataUseRef from "./component/FetchDataUseRef";
+// import UseRef from "./component/UseRef";
+
+// import Counter from "./component/Counter";
+// import ObjectInuseState from "./component/ObjectInuseState";
+import TodoApp from "./component/TodoApp";
+// import ToggleComponent from "./component/ToogleComponent";
+
+
 
 //passing function
 // const helloFunction = () =>{
@@ -30,8 +38,14 @@ const App = () => {
         {/* <Props name="Shakil Hossain" Roll="2" age="25"/> */}
         {/* <Header person={person}/> */}
         {/* <PassFunction helloFunction={helloFunction} /> */}
-        <UseRef/>
-        <DarkLightMode/>
+        {/* <UseRef/> */}
+        {/* <DarkLightMode/> */}
+        {/* <FetchDataUseRef/> */}
+        {/* <ToggleComponent/> */}
+        {/* <Counter/> */}
+        {/* <ObjectInuseState/> */}
+        <TodoApp/>
+        
     </div>
   );
 };
