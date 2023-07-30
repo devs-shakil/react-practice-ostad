@@ -6,6 +6,7 @@
 
 // import Counter from "./component/Counter";
 // import ObjectInuseState from "./component/ObjectInuseState";
+import FormControl from "./component/FormControl";
 import TodoApp from "./component/TodoApp";
 // import ToggleComponent from "./component/ToogleComponent";
 
@@ -44,8 +45,9 @@ const App = () => {
         {/* <ToggleComponent/> */}
         {/* <Counter/> */}
         {/* <ObjectInuseState/> */}
-        <TodoApp/>
-        
+        {/* <TodoApp/> */}
+        <FormControl/>
+
     </div>
   );
 };

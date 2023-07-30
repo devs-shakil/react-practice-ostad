@@ -16,6 +16,7 @@ const TodoApp = () => {
         list.splice(index, 1);
         setList([...list]);
         
+        
    }
 
     return (
