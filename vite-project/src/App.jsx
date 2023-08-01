@@ -1,13 +1,16 @@
+
 // import Header from "./component/Header";
 // import Props from "./component/Props";
 // import DarkLightMode from "./component/DarkLightMode";
 // import FetchDataUseRef from "./component/FetchDataUseRef";
 // import UseRef from "./component/UseRef";
 
+// import UseEffectCallapi from "./component/UseEffectCallapi";
+
 // import Counter from "./component/Counter";
 // import ObjectInuseState from "./component/ObjectInuseState";
-import FormControl from "./component/FormControl";
-import TodoApp from "./component/TodoApp";
+// import FormControl from "./component/FormControl";
+// import TodoApp from "./component/TodoApp";
 // import ToggleComponent from "./component/ToogleComponent";
 
 
@@ -46,8 +49,16 @@ const App = () => {
         {/* <Counter/> */}
         {/* <ObjectInuseState/> */}
         {/* <TodoApp/> */}
-        <FormControl/>
+        {/* <FormControl/> */}
+        {/* <UseEffectCallapi/> */}
 
+        {/* Routing */}
+        <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+            </Routes>
+        
+        </BrowserRouter>
     </div>
   );
 };
